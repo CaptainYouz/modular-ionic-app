@@ -1,0 +1,12 @@
+{
+  "name": "IonicSkeletonApp",
+  "version": "0.0.0",
+  "authors": [
+    "Anas Mammeri <anas.mammeri@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ionic": "driftyco/ionic-bower#master"
+  }
+}
