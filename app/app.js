@@ -1,4 +1,9 @@
-var app = angular.module('app', ['ionic']);
+var app = angular.module('app', [
+	'ionic',
+	'ui.router',
+	'home',
+	'example'
+]);
 
 app.run(function ($ionicPlatform) {
 	$ionicPlatform.ready(function() {
@@ -12,6 +17,11 @@ app.run(function ($ionicPlatform) {
 	});
 });
 
-app.config(function ($urlRouterProvider) {
-	$urlRouterProvider.otherwise('/module1');
+app.config(function ($stateProvider, $urlRouterProvider) {
+	$stateProvider.state('app', {
+		abstract: true,
+		templateUrl: 'menu/menu-view.html'
+	});
+
+	$urlRouterProvider.otherwise('/home');
 });
