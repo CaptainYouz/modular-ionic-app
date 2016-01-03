@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple skeleton for an Ionic App",
   "main": "gulpfile.js",
-  "author": "Anas Mammeri <anas.mammeri@gmail.com>",
+  "author": "Anas M <captainyouz@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.8.11",
